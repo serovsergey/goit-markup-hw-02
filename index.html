@@ -1,104 +1,111 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Студия</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="./">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Студия</title>
+        <link rel="stylesheet" href="./css/styles.css" />
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header class="page-header">
+            <nav>
+                <a href="./" class="logo link"><span>Web</span>Studio</a>
+                <ul class="site-nav no-mark">
+                    <li><a href="./index.html" class="link">Студия</a></li>
+                    <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+                    <li><a href="" class="link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="header-addresses no-mark">
+                <li><a href="mailto:info@devsudio.com" class="link">info@devsudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li><a href="mailto:info@devsudio.com">info@devsudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </header>
-    <main>
-        <section>
-            <h1>Эффективные решения <br>
-                для вашего бизнеса
-            </h1>
-            <button type="button">Заказать услугу</button>
-        </section>
-        <section>
-            <h2 aria-label="Особенности">Особенности</h2>
-            <ul>
-                <li>
-                    <h3>Внимание к деталям</h3>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Чем мы занимаемся</h2>
-            <ul>
-                <li><a href=""><img src="./images/occupation1.jpg" width="370" alt="Техническое задание"></a></li>
-                <li><a href=""><img src="./images/occupation2.jpg" width="370" alt="Разработка концепции"></a></li>
-                <li><a href=""><img src="./images/occupation3.jpg" width="370" alt="Цветовые решения"></a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Наша команда</h2>
-            <!-- Думаю что Фамилии на h3 не тянут - это просто список людей, не заголовок, но сделаю h3 -->
-            <ul>
-                <li>
-                    <img src="./images/person1.jpg" width="270" alt="Улыбчивый чувак в очках">
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
-                </li>
-                <li>
-                    <img src="./images/person2.jpg" width="270" alt="Девушка в очках">
-                    <h3>Ольга Репина</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./images/person3.jpg" width="270" alt="Весельчак">
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/person4.jpg" width="270" alt="Загадочный чувак в очках">
-                    <h3>Михаил Ермаков</h3>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <a href="./">WebStudio</a>
-        <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/FGzR6tCv5YiVbEHk7" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
-    </footer>
-</body>
+        </header>
+        <main>
+            <section>
+                <h1>Эффективные решения <br>
+                    для вашего бизнеса
+                </h1>
+                <button type="button">Заказать услугу</button>
+            </section>
+            <section>
+                <h2 aria-label="Особенности">Особенности</h2>
+                <ul>
+                    <li>
+                        <h3>Внимание к деталям</h3>
+                        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>Пунктуальность</h3>
+                        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>Планирование</h3>
+                        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h3>Современные технологии</h3>
+                        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Чем мы занимаемся</h2>
+                <ul>
+                    <li><a href=""><img src="./images/occupation1.jpg" width="370" alt="Техническое задание"></a></li>
+                    <li><a href=""><img src="./images/occupation2.jpg" width="370" alt="Разработка концепции"></a></li>
+                    <li><a href=""><img src="./images/occupation3.jpg" width="370" alt="Цветовые решения"></a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Наша команда</h2>
+                <!-- Думаю что Фамилии на h3 не тянут - это просто список людей, не заголовок, но сделаю h3 -->
+                <ul>
+                    <li>
+                        <img src="./images/person1.jpg" width="270" alt="Улыбчивый чувак в очках">
+                        <h3>Игорь Демьяненко</h3>
+                        <p>Product Designer</p>
+                    </li>
+                    <li>
+                        <img src="./images/person2.jpg" width="270" alt="Девушка в очках">
+                        <h3>Ольга Репина</h3>
+                        <p>Frontend Developer</p>
+                    </li>
+                    <li>
+                        <img src="./images/person3.jpg" width="270" alt="Весельчак">
+                        <h3>Николай Тарасов</h3>
+                        <p>Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./images/person4.jpg" width="270" alt="Загадочный чувак в очках">
+                        <h3>Михаил Ермаков</h3>
+                        <p>UI Designer</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <a href="./" class="logo link"><span>Web</span>Studio</a>
+            <address>
+                <ul class="no-mark">
+                    <li><a href="https://goo.gl/maps/FGzR6tCv5YiVbEHk7" target="_blank" class="link">г. Киев, пр-т Леси
+                            Украинки, 26</a></li>
+                    <li><a href="mailto:info@example.com" class="link secondary">info@example.com</a></li>
+                    <li><a href="tel:+380961111111" class="link secondary">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </footer>
+    </body>
 </html>
