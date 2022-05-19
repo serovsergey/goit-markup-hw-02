@@ -110,6 +110,10 @@ body {
     color: var(--secondary-text-color);
 }
 
+.occupations {
+    text-align: center;
+}
+
 .team {
     background-color: var(--secondary-background-color);
 }
