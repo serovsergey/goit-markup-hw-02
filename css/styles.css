@@ -97,35 +97,35 @@ body {
     text-align: center;
 }
 
-.pecularities h3{
+.pecularities .title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 
-.pecularities p {
+.pecularities .description {
     font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-text-color);
 }
 
-.command {
+.team {
     background-color: var(--secondary-background-color);
 }
 
-.command .card {
+.team .card {
     background-color: var(--site-background-color);
     text-align: center;
     font-size: 16px;
     line-height: 1.19;
 }
 
-.command h3 {
+.team .fio {
     font-weight: 500;
 }
 
-.command p {
+.team .position {
     color: var(--secondary-text-color);
 }
 
