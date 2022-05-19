@@ -59,7 +59,21 @@ body {
     color: var(--primary-background-color);
 }
 
-/* Buttons */
+/* Stuido page */
+
+.hero {
+    background-color: var(--footer-background-color);
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--site-background-color);
+}
 
 .button {
     cursor: pointer;
@@ -71,13 +85,57 @@ body {
     background-color: var(--secondary-background-color);
 }
 
-.button:hover,
-.button:focus {
+.hero .button.primary {
     color: var(--selected-text-color);
     background-color: var(--primary-background-color);
 }
 
-/* Main section */
+.main-page h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.pecularities h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.pecularities p {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+
+.command {
+    background-color: var(--secondary-background-color);
+}
+
+.command .card {
+    background-color: var(--site-background-color);
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.command h3 {
+    font-weight: 500;
+}
+
+.command p {
+    color: var(--secondary-text-color);
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+    color: var(--selected-text-color);
+    background-color: var(--primary-background-color);
+}
+
+/* Portfolio section */
 
 .examples .link{
     color: inherit;
