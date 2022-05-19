@@ -29,7 +29,7 @@ body {
 .site-nav, .header-addresses {
     font-size: 14px;
     font-weight: 500;
-    line-height: 114%;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -37,7 +37,7 @@ body {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 119%;
+    line-height: 1.2;
 }
 
 .page-header .logo>span {
@@ -65,7 +65,7 @@ body {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 162%;
+    line-height: 1.6;
     color: var(--primary-text-color);
     background-color: var(--secondary-background-color);
 }
@@ -85,14 +85,14 @@ body {
 .example h2  {
     font-weight: 700;
     font-size: 18px;
-    line-height: 200%;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .example p {
     color: var(--secondary-text-color);
     font-size: 16px;
-    line-height: 188%;
+    line-height: 1.88;
 }
 
 .examples > li:hover {
@@ -108,7 +108,7 @@ body {
 address .link {
     color: var(--address-text-color);
     font-size: 14px;
-    line-height: 171%;
+    line-height: 1.71;
 }
 
 .link.secondary {
@@ -125,7 +125,7 @@ address .link.secondary:focus {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 119%;
+    line-height: 1.2;
     color: var(--address-text-color);
 }
 
