@@ -4,6 +4,7 @@
     --secondary-text-color: #757575;
     --selected-text-color: #ffffff;
     --primary-background-color: #2196F3;
+    --current-text-color: var(--primary-background-color);
     --secondary-background-color: #F5F4FA;
     --footer-background-color: #2F303A;
     --address-text-color: #ffffff;
@@ -57,6 +58,10 @@ body {
 .header-addresses .link:hover,
 .header-addresses .link:focus {
     color: var(--primary-background-color);
+}
+
+.site-nav .current {
+    color: var(--current-text-color);
 }
 
 /* Stuido page */
@@ -166,6 +171,10 @@ body {
 
 .page-footer {
     background-color: var(--footer-background-color);
+}
+
+address {
+    font-style: normal;
 }
 
 address .link {
